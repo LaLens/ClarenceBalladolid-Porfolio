@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Porfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <link rel="stylesheet" href="Animation.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Porfolio</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#About">About</a></li>
+                <li><a href="#Experience">Experience</a></li>
+                <li><a href="#Porfolio">Porfolio</a></li>
+                <li><a href="#Contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Clarence Balladolid</div>
+        <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="menu-links">
+                <li><a href="#About" onclick="toggleMenu()">About</a></li>
+                <li><a href="#Experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#Porfolio" onclick="toggleMenu()">Porfolio</a></li>
+                <li><a href="#Contact" onclick="toggleMenu()">Contact</a></li>
+                
+        </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="./assest/profile.jpg" alt="Profile picture">
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello, I'm</p>
+            <h1 class="title">Clarence Balladolid</h1>
+            <p class="section__text__p2">Frontend Developer</p>
+            <div class="btn-container">
+                <p><button class="btn btn-color-2" onclick="window.open('./assest/Clarence H. Balladolid - CV.pdf')">Download CV
+                </button></p>
+                <button class="btn btn-color-1" onclick="location.href='./#Contact'">Contact Info
+                </button>
+            </div>
+            <div id="socials-container">
+                <img src="./assest/linkedin.png" alt="My LinkedIn profile" 
+                class="icon" onclick="location.href='https://www.linkedin.com/in/clarence-balladolid-6345b127b/'">
+                <img src="./assest/facebook.png" alt="My Facebook profile" 
+                class="icon" onclick="location.href='https://www.facebook.com/lalens15/'">
+                <img src="./assest/Instagram.jpg" alt="My Instagram profile" 
+                class="icon" onclick="location.href='https://www.instagram.com/lalens15/'">
+            </div>
+        </div>
+    </section>
+    <section id="About">
+        <p class="section__text__p1">Get To Know More</p>
+        <p class="title">About Me</p>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img src="./assest/profile.jpg" alt="Profile picture">
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="./assest/download.png" alt="" class="icon"/>
+                        <h3>Experience</h3>
+                        <p>0-1year <br> Frontend Development</p>
+                    </div>
+                    <div class="details-container">
+                        <img src="./assest/Educationicon.jpg" alt="" class="icon"/>
+                        <h3>Education</h3>
+                        <p>4th Year in B.S Information Technology <br> Graduating 2023</p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p>
+                        I am thrilled to announce that I will be graduating with a Bachelor's degree in Information Technology in August 2023. This significant milestone marks the culmination of years of dedication, hard work, and a passion for technology. Throughout my academic journey at AMA Computer College in Legazpi City, Albay, I have gained a comprehensive understanding of various aspects of IT, including software development, web design, and database management. As part of my professional growth, I had the valuable opportunity to serve as an intern at AMA Computer College from July to October 2022, where I took on the role of an administrative officer. This experience provided me with invaluable skills in office management, organization, and communication. I am eager to leverage my education, internship experience, and my proficiency as a web developer to contribute my knowledge and expertise to a dynamic organization as I embark on the next phase of my career.      
+                    </p>
+                </div>
+            </div>
+        </div>
+    
+</section>
+<section id="Experience">
+    <p class="section__text__p1">Explore My</p>
+    <h1 class="title">Experience</h1>
+    <div class="experience-details-container">
+        <div class="about-containers">
+            <div class="details-container">
+                <h2 class="experience-sub-title">Frontend Development</h2>
+                <div class="article-container">
+                    <article>
+                        <img src="./assest/award.png" alt="award icon" class="icon">
+                        <div>
+                            <h3>HTML</h3>
+                            <p>Experince</p>
+                        </div>
+                        </article>
+                        <article>
+                            <img src="./assest/award.png" alt="award icon" class="icon">
+                            <div>
+                        <h3>CSS</h3>
+                        <p>Experince</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assest/award.png" alt="award icon" class="icon">
+                        <div>
+                        <h3>JavaScript</h3>
+                        <p>Basics</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assest/award.png" alt="award icon" class="icon">
+                        <div>
+                        <h3>C#</h3>
+                        <p>Basics</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assest/award.png" alt="award icon" class="icon">
+                        <div>
+                        <h3>Visual Studio Code</h3>
+                        <p>Experience</p>
+                        </div>
+                    </article>
+                    </div>
+                     </div>
+              <div class="details-container">
+                <h2 class="experience-sub-title">Backend Development</h2>
+                <div class="article-container">
+                    <article>
+                        <img src="./assest/award.png" alt="award icon" class="icon">
+                        <div>
+                            <h3>Git</h3>
+                            <p>Experince</p>
+                        </div>
+                        </article>
+                        <article>
+                            <img src="./assest/award.png" alt="award icon" class="icon">
+                            <div>
+                        <h3>MYSQL</h3>
+                        <p>Basics</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="Porfolio">
+    <h1 class="title">Porfolio Recent projects</h1>
+    <p class="section__text__p1">Admin Intern-AMACC Legazpi City, Albay</p>
+    <div class="Experience-details-container">
+        <div class="details-container color-container">
+            <div class="article-container">
+                <div class="gallery">
+                    <a target="_blank" href="/assest/OJT/Encoding.jpg">
+                      <img src="./assest/OJT/Encoding.jpg" alt="Data Entry">
+                    </a>
+                    <div class="desc">Data Entry</div>
+                  </div>
+                  <div class="gallery">
+                    <a target="_blank" href="./assest/OJT/Arrange Documents.jpg">
+                      <img src="./assest/OJT/Arrange Documents.jpg" alt="Documents">
+                    </a>
+                    <div class="desc">Documents</div>
+                  </div>
+                  
+                  <div class="gallery">
+                    <a target="_blank" href="./assest/OJT/Log book.jpg">
+                      <img src="./assest/OJT/Log book.jpg" alt="Log book">
+                    </a>
+                    <div class="desc">Dealing with Enquiries</div>
+                  </div>
+                  
+                  <div class="gallery">
+                    <a target="_blank" href="./assest/OJT/Scanning Documents.jpg">
+                      <img src="./assest/OJT/Scanning Documents.jpg" alt="Scanning Documents">
+                    </a>
+                    <div class="desc">Scanning Documents</div>
+                  </div>
+
+                  <div class="gallery">
+                    <a target="_blank" href="./assest/OJT/Responding to mails.jpg">
+                      <img src="./assest/OJT/Responding to mails.jpg" alt="Responding to mails">
+                    </a>
+                    <div class="desc">Dealing with email</div>
+                  </div>
+
+                  <div class="gallery">
+                    <a target="_blank" href="./assest/OJT/Printing Documents.jpg">
+                      <img src="./assest/OJT/Printing Documents.jpg" alt="Printing Documents" >
+                    </a>
+                    <div class="desc">Printing Documents</div>
+                  </div>
+            </div>
+            </div>
+        
+</section>
+    <section id="Contact">
+        <p class="section__text__p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+            <img src="./assest/phone.png" alt="phone icon" class="icon contact-icon">
+            <p><a href="#Contact">+639764180249</a></p>
+            <div class="contact-info-container">
+                <img src="./assest/email.png" alt="Email icon" class="icon Email-icon">
+                <p><a href="https://clarenceh.balladolid@gmail.com">clarenceh.balladolid@gmail.com</a></p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+         <ul class="nav-links">
+            <li><a href="#About">About</a></li>
+            <li><a href="#Experience">Experience</a></li>
+            <li><a href="#Porfolio">Porfolio</a></li>
+            <li><a href="#Contact">Contact</a></li>
+        </ul>
+            </div>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2023 Clarence Balladolid. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+    <script src="Animation.js"></script>
+</body>
+</html>
