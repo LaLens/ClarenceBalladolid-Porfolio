@@ -306,12 +306,12 @@ section {
 }
 
 .details-container p{
-    font-size: 20px;
+    font-size: 17px;
 }
 
 .details-container h3 {
     font-size: larger;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 .section-container{
@@ -352,7 +352,7 @@ section {
 }
 
 .article-container p{
-    font-size: 20px;
+    font-size: 15px;
 }
 
 article{
@@ -489,5 +489,5 @@ footer p {
   .experience-sub-title{
     color: white;
     margin-bottom: 15px;
-    font-size: 30px;
+    font-size: 25px;
   }
